@@ -1,0 +1,12 @@
+.profile-stats{
+    display: flex;
+    line-height: 5px;
+    margin-top: 2rem;
+    column-gap: 3rem;
+    @media(max-width:$bp-phone-sm){
+        column-gap: 1rem;
+    }
+}
+.item{
+    flex-grow: 1;
+}

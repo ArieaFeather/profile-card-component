@@ -1,0 +1,74 @@
+.profile{
+    display: table;
+    margin: 0 auto;
+    font-family: $font-primary;
+    color: $color-primary-2;
+    border-radius: 5%;
+    padding: 2rem 3rem;
+    padding-top: 7rem;
+    text-align: center;
+    background-image:url("images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media (max-width: $bp-phone){
+        padding:2rem 1rem;
+        padding-top: 5rem;
+    }
+    @media(max-width: $bp-phone-sm){
+        padding-top: 3rem;
+    }
+    &-credentials{
+        &-picture{
+            border-style: solid;
+            border-radius: 100%;
+            border-color: white;
+            border-width: 5px;
+        }
+        &-name{
+            font-size: 24px;
+        }
+        &-age, &-location{
+            color: $color-primary-3;
+            font-weight: $font-weight-primary-sm;
+        }
+        &-location{
+            margin-left: 5px;
+        }
+    }
+    &-stats{
+        &-numbers{
+            font-weight: $font-weight-primary-md;
+            font-size: $font-size-primary-lg;
+            @media(max-width:$bp-phone){
+                font-size: 18px;
+            }
+            @media(max-width:$bp-phone-sm){
+                font-size: 16px;
+            }
+        } 
+        &-type{
+            color: $color-primary-3;
+            letter-spacing: 2px;
+            @media(max-width:$bp-phone-sm){
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.attribution{
+    text-align: center;
+    margin: 0 20px;
+    color: $color-primary-1;
+    padding: 20px;
+    border-style: solid;
+    border-color: $color-primary-1;
+    border-width: 5px;
+    border-radius: 20px;
+    font-family: $font-primary;
+    font-weight: $font-weight-primary-md;
+    font-size: $font-size-primary-lg;
+    .site, .coder{
+        color: $color-primary-2;
+    }
+}
