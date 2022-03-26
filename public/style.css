@@ -8,7 +8,7 @@
     padding: 0;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   body {
     padding: 0 2rem;
   }
@@ -32,7 +32,7 @@
   background-size: contain;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .profile {
     padding: 2rem 1rem;
     padding-top: 5rem;
@@ -68,7 +68,7 @@
   font-size: 24px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .profile-stats-numbers {
     font-size: 18px;
   }
