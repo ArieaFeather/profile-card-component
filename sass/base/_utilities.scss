@@ -1,14 +1,14 @@
-body{
-    @media(max-width:$bp-laptop){
+body {
+    @media (max-width: $bp-desktop) {
         padding: 0;
     }
-    @media(max-width:$bp-tablet){
+    @media (max-width: $bp-tablet) {
         padding: 0;
     }
-    @media(max-width: $bp-phone){
+    @media (max-width: $bp-phone) {
         padding: 0 2rem;
     }
-    @media(max-width:$bp-phone-sm){
+    @media (max-width: $bp-phone-sm) {
         padding: 0 2rem;
     }
 }
